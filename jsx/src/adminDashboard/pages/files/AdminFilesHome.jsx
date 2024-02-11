@@ -1,12 +1,6 @@
-import AdminNavbar from "../../AdminNavbar"
-import AdminSidebar from "../../AdminSidebar"
-
 function AdminFilesHome() {
   return (
-    <div className="page d-flex">
-    <AdminSidebar/>
-    <div className="content w-full">
-      <AdminNavbar/>
+    <>
       <h1 className="p-relative">Files</h1>
       <div className="files-page d-flex m-20 gap-20">
         <div className="files-stats p-20 bg-white rad-10">
@@ -339,8 +333,7 @@ function AdminFilesHome() {
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </>
   )
 }
 
