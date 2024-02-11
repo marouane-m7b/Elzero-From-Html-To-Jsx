@@ -16,7 +16,7 @@ const Friend = ({ friendData }) => {
     return (
         <div className="friend bg-white rad-6 p-20 p-relative">
             <div className="contact">
-                <i className="fa-solid fa-phone"></i>
+                <i className="fa-solid fa-phone mr-15"></i>
                 <i className="fa-regular fa-envelope"></i>
             </div>
             <div className="txt-c">
@@ -42,7 +42,7 @@ const Friend = ({ friendData }) => {
             <div className="info between-flex fs-13">
                 <span className="c-grey">Joined {joinedDate}</span>
                 <div>
-                    <Link className="bg-blue c-white btn-shape" to="/profile">
+                    <Link className="bg-blue c-white btn-shape mr-15" to="/profile">
                         Profile
                     </Link>
                     <Link className="bg-red c-white btn-shape" to="#">
