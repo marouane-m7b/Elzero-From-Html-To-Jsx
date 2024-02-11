@@ -1092,7 +1092,7 @@ ul {
 /* End Files Page */
 /* Start Plans Page */
 .plans-page {
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 @media (max-width: 767px) {
   .plans-page {
