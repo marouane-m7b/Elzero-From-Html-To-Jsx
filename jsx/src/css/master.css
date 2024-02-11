@@ -73,7 +73,7 @@ ul {
 }
 .sidebar ul li a:hover,
 .sidebar ul li a.active {
-  background-color: #f6f6f6;
+  background-color: #e6e6e6;
 }
 .sidebar ul li a span {
   font-size: 14px;

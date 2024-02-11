@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function AdminNavbar() {
   return (
     <div className="head bg-white p-15 between-flex">
@@ -8,7 +10,9 @@ function AdminNavbar() {
         <span className="notification p-relative">
             <i className="fa-regular fa-bell fa-lg"></i>
         </span>
+        <Link to={"/profile"}>
         <img src="imgs/avatar.png" alt="" />
+        </Link>
     </div>
 </div>
   )
